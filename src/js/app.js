@@ -3,7 +3,8 @@ import GamePlay from "./GamePlay";
 const gamePlay = new GamePlay();
 gamePlay.bindToDOM(document.querySelector("#game-container"));
 gamePlay.drawUi();
-
-setInterval(() => {
+function draw() {
     gamePlay.draw();
-}, 3000);
+}
+
+setInterval(draw, 3000);
