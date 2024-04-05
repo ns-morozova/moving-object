@@ -10,7 +10,6 @@ cache: node_modules  # кеширование
 
 install:
   - npm install  # команда установки зависимостей
-  - Install-Product node ''
 
 build: off  # отключаем встроенную в appveyor систему сборки
 
